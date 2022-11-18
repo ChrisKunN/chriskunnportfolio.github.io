@@ -792,6 +792,8 @@ input {
     font-family: var(--mono-font);
 }
 
+
+
 .contact__list {
     margin-bottom: 3.25rem;
 }
@@ -813,7 +815,35 @@ input {
 }
 
 .contact__social-link{
+
     font-family: var(--roboto-font);
+
+}
+.contact__social-link:hover{
+
+    color: var(--bg-color-alt);
+    
+
+}
+
+.ri-github-fill{
+
+    position: relative;
+    top: 0.12rem;
+    padding-right: 0.5rem;
+
+}
+
+.ri-facebook-box-fill{
+    position: relative;
+    top: 0.12rem;
+    padding-right: 0.5rem;
+}
+
+.ri-linkedin-box-fill{
+    position: relative;
+    top: 0.12rem;
+    padding-right: 0.5rem;
 }
 
 .contact__form {
