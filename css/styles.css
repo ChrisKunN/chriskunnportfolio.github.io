@@ -817,6 +817,7 @@ input {
 .contact__social-link{
 
     font-family: var(--roboto-font);
+    text-transform: capitalize;
 
 }
 .contact__social-link:hover{
